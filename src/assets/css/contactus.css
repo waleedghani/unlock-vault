@@ -1,0 +1,29 @@
+.contact-sec {
+  padding: 100px 0px;
+}
+.contact-form-wrapper input {
+  background: transparent;
+  border: 1px solid #fff;
+  height: 45px;
+  color: #fff;
+}
+.contact-form-wrapper input:focus {
+  background: transparent;
+  color: #fff;
+  box-shadow: none;
+  border-color: #fff;
+}
+.contact-form-wrapper textarea {
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+.contact-form-wrapper textarea:focus {
+  background: transparent;
+  color: #fff;
+  box-shadow: none;
+  border-color: #fff;
+}
+.contact-form-wrapper label {
+  font-size: 14px;
+}

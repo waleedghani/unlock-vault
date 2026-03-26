@@ -1,0 +1,63 @@
+.vault-sec {
+  padding: 60px 0px;
+}
+.vault-transform-sec .transform-text-wrapper h3.heading-txt {
+  font-size: 36px;
+  line-height: 1.5;
+}
+.vault-table {
+  color: #fff;
+  border-collapse: separate;
+  border-spacing: 0;
+  text-align: left;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+}
+
+.vault-table th {
+  font-weight: 600;
+  color: #fff;
+  border-top: 1px solid #4d4d4e;
+  padding: 28px 0px;
+  background: transparent;
+  width: 25%;
+  text-align: center;
+}
+.vault-table th:not(:last-child) {
+  border-right: 1px solid #4d4d4e;
+}
+.vault-table th h4 {
+  margin-bottom: 0px;
+}
+.vault-table td {
+  padding: 28px 0px;
+  border-top: 1px solid #4d4d4e;
+  vertical-align: middle;
+  background-color: transparent;
+  color: #fff;
+  text-align: center;
+}
+.vault-table td:not(:last-child) {
+  border-right: 1px solid #4d4d4e;
+}
+.vault-table tbody tr:last-child td {
+  border-bottom: 1px solid #4d4d4e;
+}
+/* .vault-table tbody tr:last-child td {
+  border-bottom: none;
+} */
+.vault-table td p {
+  margin-bottom: 0px;
+}
+.break-sec {
+  padding: 80px 0px;
+}
+.functions-sec {
+  padding: 60px 0px;
+}
+/* responsive starts here */
+.break-sec{
+  padding-top: 0px;
+}
+/* responsive ends here */

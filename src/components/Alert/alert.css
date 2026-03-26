@@ -1,0 +1,34 @@
+/* alert.css */
+
+/* Popup box */
+.custom-swal-popup {
+  background: #000 !important; /* force black */
+  color: #fff !important; /* white text */
+  box-shadow: 0px 6px 25px rgba(0, 0, 0, 0.8) !important;
+  border-radius: 12px !important;
+}
+
+/* Title */
+.custom-swal-title {
+  color: #fff !important;
+  font-weight: bold !important;
+}
+
+/* Text */
+.custom-swal-text {
+  color: #ddd !important;
+}
+
+/* Confirm button */
+.custom-swal-button {
+  background-color: #6b00ff !important;
+  color: #fff !important;
+  border-radius: 6px !important;
+  padding: 8px 20px !important;
+  font-weight: bold !important;
+  border: none !important;
+}
+
+.custom-swal-button:hover {
+  background-color: #6a00ffdf !important;
+}

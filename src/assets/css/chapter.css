@@ -1,0 +1,139 @@
+.view-course-img-wrapper .timestamp {
+  opacity: 0;
+  transition: 0.3s;
+  background: #000000b3;
+}
+.buffering-overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0000008a;
+}
+
+.buffering-overlay .ant-spin-dot-item {
+  background: #fff !important;
+}
+.view-course-img-wrapper:hover .timestamp {
+  opacity: 1;
+}
+.view-course-headings-wrapper h2 {
+  color: #000;
+}
+
+.view-course-result-heading-wrapper h3 {
+  font-size: 30px;
+  color: #000;
+}
+.view-course-result-list-wrapper li {
+  /* font-family: "PoppinsRegular";
+	color: #000; */
+  font-size: 15px;
+  list-style: none;
+}
+.view-course-result-list-wrapper ul {
+  column-count: 2;
+}
+.courses-sidebar-detail-wrapper {
+  /* background: #f5f5f5; */
+  padding: 20px 10px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(2px) saturate(180%);
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.2),
+    inset 0 4px 20px rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+}
+.courses-sidebar-detail-wrapper span.badge {
+  background-image: url(/src/assets/img/button.png);
+  text-decoration: none;
+  padding: 13px 21px;
+  border-radius: 8px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 103%;
+  color: #fff;
+  backdrop-filter: blur(25px);
+  border: 2px solid #7b799f;
+  font-size: 14px;
+  font-family: "Inter";
+  display: inline-block;
+  background-color: transparent;
+  text-align: left;
+}
+.chapters-tags-wrapper button.badge {
+  background-image: url(/src/assets/img/button.png);
+  text-decoration: none;
+  padding: 13px 21px !important;
+  border-radius: 8px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 103%;
+  color: #fff;
+  backdrop-filter: blur(25px);
+  border: 2px solid #7b799f;
+  font-size: 14px;
+  font-family: "Inter";
+  display: inline-block;
+  background-color: transparent;
+  text-align: left;
+}
+.course-sidebar-card-wrapper .course-stats-wrapper ul li {
+  font-size: 14px;
+  list-style: none;
+}
+/* .course-sidebar-card-wrapper .course-stats-wrapper ul li span.property {
+  font-family: "PoppinsRegular";
+} */
+.course-sidebar-card-wrapper .course-stats-wrapper ul li span.value {
+  font-family: "PoppinsBold";
+  margin-left: 10px;
+}
+.course-content-list-wrapper
+  .course-list-left-wrapper
+  .course-btns-wrapper
+  span.GeneralButton
+  button {
+  width: 97px !important;
+  margin: 0px auto;
+  margin-right: 0px;
+  font-size: 15px;
+  height: 40px;
+}
+.course-play-button-wrapper p span {
+  font-family: "PoppinsRegular";
+  font-size: 14px;
+}
+.courses-sidebar-detail-wrapper .course-content-list-wrapper:not(:last-child) {
+  border-bottom: 1px solid #7b7b7b;
+}
+.course-list-right-wrapper .course-heading-wrapper h5 {
+  font-size: 15px;
+  font-family: "PoppinsRegular";
+  color: #14252a;
+}
+.courses-sidebar-detail-wrapper h4.level-4 {
+  color: #000;
+}
+
+.active-lesson {
+  background-color: #6b00ff !important;
+  color: #fff !important;
+  border: 2px solid #fff !important;
+}
+.chapters-tags-wrapper button.badge:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.chapter-card-wrapper {
+  padding: 13px 17px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(2px) saturate(180%);
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.2),
+    inset 0 4px 20px rgba(255, 255, 255, 0.3);
+  border-radius: 11px;
+}

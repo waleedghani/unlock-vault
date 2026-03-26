@@ -1,0 +1,25 @@
+.page-header-bg {
+  position: relative;
+  overflow: hidden;
+  padding: 160px 0px 0px 0px;
+}
+
+.background-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  object-fit: cover;
+  filter: brightness(0.6); /* Optional: darken background */
+}
+
+.page-header-content-wrapper {
+  position: relative;
+  z-index: 2;
+  color: white; /* Ensure content is visible over video */
+}

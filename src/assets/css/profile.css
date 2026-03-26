@@ -1,0 +1,101 @@
+.profile__sidebar {
+  background: #000000;
+  border: 4px dashed #fff;
+  outline: 8px solid #000000;
+}
+.profile__wrapp {
+  padding: 60px 0px;
+  background-image: url("../img/newsletter-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.active-profile {
+  /* background-color: #fff; */
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(2px) saturate(180%);
+  box-shadow: inset 0 8px 32px rgba(31, 38, 135, 0.2),
+    inset 0 4px 20px rgba(255, 255, 255, 0.3);
+}
+.profile__info .img__wrapp img {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border: 5px solid #7b799f;
+  z-index: 2;
+  position: relative;
+  display: block;
+  /* justify-content: center; */
+  margin: 0 auto;
+}
+.profile__info .img__wrapp {
+  text-align: center;
+}
+
+.profile__info .heading-bg-wrapper {
+  margin-top: -38px !important;
+  position: relative;
+  z-index: 4;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(2px) saturate(180%);
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.2) inset,
+    inset 0 4px 20px rgba(255, 255, 255, 0.3);
+  padding: 10px 0px;
+}
+.profile__sidebar ul.sidebar__list a {
+  text-decoration: none;
+}
+.profile__sidebar ul.sidebar__list a li {
+  color: #fff;
+}
+p.label {
+  color: #fff;
+}
+.profile-row input.form-control {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(2px) saturate(180%);
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.2) inset,
+    inset 0 4px 20px rgba(255, 255, 255, 0.3);
+  color: #fff;
+  margin: 10px 0px;
+}
+.profile-row input.form-control::placeholder {
+  color: #fff;
+  font-size: 12px;
+}
+.subscription-sec .card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(2px) saturate(180%);
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.2) inset,
+    inset 0 4px 20px rgba(255, 255, 255, 0.3);
+}
+.token-sec .card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(2px) saturate(180%);
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.2) inset,
+    inset 0 4px 20px rgba(255, 255, 255, 0.3);
+}
+.token-sec .card .list-group-item {
+  background: transparent;
+}
+.profile-row input.form-control:disabled {
+  opacity: 0.7;
+}
+.connect-to-xumm {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(2px) saturate(180%);
+  box-shadow: inset 0 8px 32px rgba(31, 38, 135, 0.2),
+    inset 0 4px 20px rgba(255, 255, 255, 0.3);
+}
+.connect-to-xumm strong {
+  color: #fff;
+}
+@media (max-width: 800px) {
+  .profile__wrapp {
+    padding-top: 0px;
+  }
+  button.gradient-button {
+    font-size: 13px;
+  }
+}

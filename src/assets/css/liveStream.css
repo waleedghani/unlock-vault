@@ -1,0 +1,471 @@
+.live-stream .stream .gift-send i {
+  font-size: 28px;
+  border-radius: 50%;
+  text-align: center;
+  color: #fc771d;
+  margin-bottom: 7px;
+}
+.live-stream .stream .gift-send {
+  position: absolute;
+  right: -6px;
+  top: 43%;
+}
+.live-stream .stream .gift-send button {
+  border: 0;
+  outline: none;
+  padding: 0;
+  background: transparent;
+}
+.live-stream .stream .gift-send ul.all-gifts {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  height: 150px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: relative;
+  /* z-index: 99; */
+}
+.live-stream .stream .gift-send ul.all-gifts::-webkit-scrollbar {
+  width: 1em;
+}
+.live-stream .stream .gift-send ul.all-gifts li img {
+  width: 30px;
+  height: 30px;
+}
+.live-chat {
+  background: #1c1c1c;
+  padding: 20px 0;
+  border-radius: 15px;
+}
+.live-chat .heading-wrapper {
+  border-bottom: 1px solid #2f293a;
+  text-align: center;
+  padding-bottom: 5px;
+  position: relative;
+}
+.live-chat .heading-wrapper h3 {
+  font-size: 25px;
+  font-weight: 500;
+  /* font-family: "Poppins"; */
+  text-transform: capitalize;
+}
+.live-chat .heading-wrapper {
+  border-bottom: 1px solid #2f293a;
+  text-align: center;
+  padding-bottom: 5px;
+  position: relative;
+}
+.live-chat .heading-wrapper button.setting {
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  outline: none;
+  position: absolute;
+  right: 30px;
+  top: -5px;
+}
+.live-chat {
+  background: #1c1c1c;
+  padding: 20px 0;
+  margin-left: 15px;
+}
+.live-chat .close {
+  background: #dd4141;
+  opacity: 1;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 34px;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  top: -10px;
+}
+.live-chat ul.messages {
+  padding: 20px 15px;
+}
+.live-chat ul.messages {
+  padding: 15px 15px;
+  list-style: none;
+  height: 350px;
+  overflow: auto;
+  /* z-index: 9; */
+  position: relative;
+}
+.live-chat ul.messages::-webkit-scrollbar {
+  width: 1em;
+}
+.live-chat ul.messages li .dropdown button.btn {
+  white-space: unset;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  border: 0;
+  box-shadow: none !important;
+  outline: none !important;
+  font-size: 13px;
+  color: #fff;
+}
+.live-chat ul.messages li .dropdown button.btn::after {
+  display: none;
+}
+.live-chat ul.messages li .dropdown button.btn span {
+  color: #ff8484;
+}
+.live-chat ul.messages li .dropdown ul.dropdown-menu {
+  width: 100%;
+}
+.live-chat ul.messages li .dropdown ul.dropdown-menu:before {
+  content: "";
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid #363636;
+  position: absolute;
+  top: -16px;
+  left: 20px;
+}
+.live-chat ul.messages li .dropdown ul.dropdown-menu a.dropdown-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #2d2d2d;
+  padding: 7px 30px;
+}
+.live-chat ul.messages li .dropdown ul.dropdown-menu a.dropdown-item svg {
+  margin-right: 13px;
+}
+.live-chat ul.messages li .dropdown ul.dropdown-menu a.dropdown-item span {
+  color: #9f9f9f;
+}
+.live-chat
+  ul.messages
+  li
+  .dropdown
+  ul.dropdown-menu
+  li:last-child
+  a.dropdown-item {
+  border: 0;
+}
+.live-chat ul.messages li {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.live-chat ul.messages li span.green {
+  color: #c6ff84;
+}
+.live-chat ul.messages li span.purple {
+  color: #98a4ff;
+}
+.live-chat ul.messages li span.pnk {
+  color: #ff9aec;
+}
+.live-chat ul.messages li.back-purple {
+  background: #a4b6ff75;
+  padding: 7px 8px;
+  border-radius: 6px;
+}
+.live-chat ul.messages li.orange-back span.yellow {
+  color: #ffbf00;
+}
+.live-chat ul.messages li.orange-back {
+  background: #fb7c1bad;
+  padding: 7px 8px;
+  border-radius: 6px;
+}
+.live-chat ul.messages li span.lght-purple {
+  color: #cb8aff;
+}
+.live-chat ul.messages li span.pinkish {
+  color: #ff9898;
+}
+.live-chat .bottom-bar {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+.live-chat .bottom-bar .emoji {
+  background: #0000009e;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 55px;
+  cursor: pointer;
+  z-index: 2;
+}
+.live-chat .bottom-bar .form-group {
+  flex: 1;
+  display: flex;
+  position: relative;
+}
+.live-chat .bottom-bar .form-group button.react-input-emoji--button {
+  position: absolute;
+  right: 35px;
+  z-index: 1;
+}
+.live-chat .bottom-bar .form-group button.react-input-emoji--button svg {
+  fill: #fff;
+}
+.live-chat .bottom-bar .form-group button.btn {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-shadow: none !important;
+  outline: none !important;
+  position: absolute;
+  right: 12px;
+  top: 17px;
+  cursor: pointer;
+  z-index: 1;
+}
+.live-chat .bottom-bar .form-group .react-input-emoji--container {
+  background: #3e3e3e;
+  border: 0;
+  padding: 5px 10px;
+  color: #ffffff;
+  border-radius: 50px !important;
+}
+.live-chat
+  .bottom-bar
+  .form-group
+  .react-input-emoji--container
+  .react-input-emoji--placeholder {
+  font-family: "Poppins";
+}
+.live-stream {
+  padding: 50px 0;
+}
+.live-stream .stream .title-wrapper {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.live-stream .stream .title-wrapper .action-btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+.live-stream .stream .title-wrapper .left h4 {
+  font-size: 16px;
+  color: #ffffffa8;
+  /* font-family: "Poppins"; */
+  font-weight: 400;
+  margin: 0;
+}
+.live-stream .stream .title-wrapper .left h2 {
+  font-size: 32px;
+  font-weight: 400;
+}
+.live-stream .stream p.hashtag span {
+  font-size: 16px;
+  color: #ffffffb5;
+  margin-right: 15px;
+}
+.live-stream .stream .video {
+  position: relative;
+}
+.live-stream .stream p.description {
+  font-size: 14px;
+  color: #ffffffcf;
+}
+.live-stream .stream .title-wrapper .action-btn .btn {
+  /* font-family: "Poppins"; */
+  color: #fff;
+  border: 1px solid #fff;
+  margin-left: 15px;
+  padding: 10px 20px;
+  border-radius: 12px;
+  transition: 0.6s;
+}
+.live-stream .stream .title-wrapper .action-btn .btn:hover {
+  background: #ff0000;
+  border-color: #ff0000;
+}
+.live-stream .stream .video .spinner {
+  position: absolute;
+  top: 146px;
+  right: -5px;
+}
+.live-stream .stream .video .spinner img {
+  width: 70%;
+}
+.live-stream .stream .video .spinner button {
+  background: transparent;
+  border: 0;
+  padding: 0 6px;
+}
+.live-chat .heading-wrapper button.setting {
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  outline: none;
+  position: absolute;
+  right: 30px;
+  top: -5px;
+}
+.stream-setting {
+  background: #1c1c1c;
+  padding: 40px 40px;
+  border-radius: 20px;
+  position: relative;
+}
+.stream-setting button.setting {
+  border: 0;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.stream-setting .heading-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.stream-setting .heading-wrapper h3.txt {
+  font-size: 20px;
+  margin: 0;
+}
+.stream-setting form .form-group .form-control {
+  border: 0;
+  background: transparent;
+  border-bottom: 2px solid #ffffff;
+  border-radius: 0;
+  padding: 0 0;
+  color: #fff;
+  box-shadow: none;
+  outline: none;
+}
+.stream-setting form .form-group .form-control::placeholder {
+  color: #d9d9d9;
+}
+.stream-setting form .add-stream {
+  padding: 10px 0 30px;
+}
+.stream-setting form .add-stream button.btn {
+  background: #373737;
+  color: #fff;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  padding: 8px 25px;
+}
+.stream-setting form .add-stream button.btn svg {
+  margin-right: 4px;
+}
+.stream-setting form ul.toggle-setting {
+  padding: 0;
+  list-style: none;
+}
+.stream-setting form ul.toggle-setting span {
+  font-size: 14px;
+}
+/* Live Stream Css End Here */
+
+/* Live Stream Setting Css Start Here */
+.stream-setting form ul.toggle-setting li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.stream-setting .switch {
+  position: relative;
+  display: inline-block;
+  height: 18px;
+  width: 40px;
+}
+.stream-setting .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.stream-setting .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+.stream-setting .slider:before {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 13px;
+  border-radius: 50px;
+  bottom: 4px;
+  background-color: #fd6222;
+  transition: 0.4s;
+  top: 2px;
+  right: 23px;
+}
+.stream-setting input:checked + .slider {
+  background-color: #fd6222;
+}
+.stream-setting .stream-setting input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+.stream-setting input:checked + .slider:before {
+  transform: translateX(20px);
+  background: #fff;
+}
+/* Rounded sliders */
+.stream-setting .slider.round {
+  border-radius: 34px;
+}
+.stream-setting .slider.round:before {
+  border-radius: 50%;
+}
+.stream-setting .button-group .btn {
+  background-image: linear-gradient(
+    to right top,
+    #fe5b25,
+    #fe6c1e,
+    #fd7c18,
+    #fb8b14,
+    #f99914
+  );
+  font-size: 14px;
+  color: #ffffff;
+  padding: 10px 50px;
+  margin-top: 15px;
+  width: 100%;
+  border-radius: 10px;
+  font-weight: 500;
+}
+.stream-setting .button-group {
+  margin-top: 70px;
+}
+.live-chat .bottom-bar .form-group .react-input-emoji--container {
+  background: #3e3e3e !important;
+  border: 0;
+  padding: 5px 10px;
+  color: #ffffff;
+  border-radius: 50px !important;
+}
+.live-chat
+  .bottom-bar
+  .form-group
+  .react-input-emoji--container
+  .react-input-emoji--placeholder {
+  font-family: "Unbounded";
+}
+.live-chat .bottom-bar .form-group button.react-input-emoji--button {
+  position: absolute;
+  right: 35px;
+  z-index: 1;
+}
+.live-chat .bottom-bar .form-group button.react-input-emoji--button svg {
+  fill: #fff;
+}

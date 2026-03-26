@@ -1,0 +1,29 @@
+// Custom.scss
+
+// Step 1: Bootstrap functions first
+@import "../../../node_modules/bootstrap/scss/functions";
+
+// Step 2: Variable overrides BEFORE the rest
+$primary: #6b00ff ;
+$dark: #000000;
+$info: #154c68;
+$secondary: #007dfc;
+$success: #45ac26;
+
+$body-color: #1e1e1e;
+$font-family-sans-serif: "Inter", sans-serif;
+$headings-font-family: "Poppins", sans-serif;
+$headings-color: #000;
+$headings-font-weight: 500;
+$btn-font-weight: 400;
+$border-color: #0000005e;
+
+$h1-font-size: 45px;
+$h2-font-size: 50px;
+$h3-font-size: 38px;
+$h4-font-size: 22px;
+$h5-font-size: 20px;
+$h6-font-size: 15px;
+
+// Step 3: Import full Bootstrap after overrides
+@import "../../../node_modules/bootstrap/scss/bootstrap";

@@ -1,0 +1,35 @@
+.serv-sec {
+  padding: 60px 0px;
+}
+.serv-sec .token-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.serv-sec .token-row .col-lg-4 {
+  display: flex;
+  flex-direction: column;
+}
+
+.token-card-wrapper {
+  border-right: 1px solid #4d4d4e;
+  border-bottom: 1px solid #4d4d4e;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Optional: keeps heading and image spaced */
+}
+/* .serv-sec .token-row .token-card-wrapper:nth-last-child(-n + 3) {
+  border-bottom: 0px;
+} */
+.token-card-wrapper:nth-child(3),
+.token-card-wrapper:nth-child(6) {
+  border-right: none;
+}
+/* responsive starts here */
+@media (max-width: 800px) {
+  .token-card-wrapper {
+    border-top: 1px solid #4d4d4e;
+    border-left: 1px solid #4d4d4e;
+  }
+}
+/* responsive ends here */
